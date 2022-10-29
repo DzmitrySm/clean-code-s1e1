@@ -38,14 +38,17 @@
 .task-row-wrapper {
   display: flex;
 }
-#completed-tasks, #incomplete-tasks {
+#completed-tasks, 
+#incomplete-tasks {
   margin: 0;
   padding: 0px;
 }
-.tasks-item, .section-name {
+.tasks-item, 
+.section-name {
   list-style: none;
 }
-.any-input, .any-button{
+.any-input, 
+.any-button{
   outline: none;
 }
 .any-button {
@@ -141,7 +144,8 @@
   display: none;
 }
 
-#incomplete-tasks > .edit-mode > .input-text, #completed-tasks > .edit-mode > .input-text {
+#incomplete-tasks > .edit-mode > .input-text, 
+#completed-tasks > .edit-mode > .input-text {
   display: inline-block;
   width: 224px;
 }
