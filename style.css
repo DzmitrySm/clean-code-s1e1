@@ -18,10 +18,13 @@ body {
 }
 
 @media (max-width: 768px) {
+
 .additional-information-link { 
   text-align: center;
 }
+
 }
+
 .container-select-fields {
   display: block;
   width: 500px;
