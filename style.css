@@ -41,19 +41,19 @@
 #completed-tasks, 
 #incomplete-tasks {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 .tasks-item, 
 .section-name {
   list-style: none;
 }
 .any-input, 
-.any-button{
+.any-button {
   outline: none;
 }
 .any-button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -144,7 +144,7 @@
   display: none;
 }
 
-#incomplete-tasks > .edit-mode > .input-text, 
+#incomplete-tasks > .edit-mode > .input-text,
 #completed-tasks > .edit-mode > .input-text {
   display: inline-block;
   width: 224px;
