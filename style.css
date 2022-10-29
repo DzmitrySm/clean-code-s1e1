@@ -13,7 +13,7 @@ body {
 .container-matrix img {
   width: 100%;
 }
-.container-matrix .additional-information-link {
+.container-matrix .add-info-link {
   font-family: Fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 }
-.container-for-main-app-element {
+.container-select-fields {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -118,12 +118,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.button-delete img {
+button.btn-del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.button-delete img:hover {
+button.btn-del img:hover {
   transform: rotateZ(0);
 }
 
